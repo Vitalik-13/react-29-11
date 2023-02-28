@@ -10,20 +10,13 @@ import ReactDOM from 'react-dom/client'
 //     'Hello react'
 // )
 
-const title = <h1 className="red">Test</h1>
-const list = (
-    <ul>
-        <li>list item</li>
-        <li>list item</li>
-        <li>list item</li>
-    </ul>
-)
-const content = (
-    <div>
-        {title}
-        {list}
-    </div>
-)
+function App() {
+    return <h1>Hello app component</h1>
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
-root.render(<React.StrictMode>{content}</React.StrictMode>)
+root.render(
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
+)
