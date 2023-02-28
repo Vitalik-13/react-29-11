@@ -1,8 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-const Title = () => {
-    return <h1>Hello app component</h1>
-}
+import Title from './Title'
 const Content = () => {
     return (
         <React.Fragment>
