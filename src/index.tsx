@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Title } from './Title'
+import Title from './Title'
 const Content = () => {
     return (
         <React.Fragment>
@@ -22,7 +22,10 @@ const Content = () => {
 const App = () => {
     return (
         <>
-            <Title />
+            <Title title="React" />
+
+            <Title title="Vitaliy" />
+
             <Content />
         </>
     )
