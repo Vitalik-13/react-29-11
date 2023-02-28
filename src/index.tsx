@@ -10,7 +10,7 @@ const App = () => {
 
             <Title title="Vitaliy" year={2023} />
 
-            <Content text1="godby America" text2="hello bro" />
+            <Content text1="godby America" />
         </>
     )
 }
