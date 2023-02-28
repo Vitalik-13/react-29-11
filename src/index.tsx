@@ -22,9 +22,9 @@ const Content = () => {
 const App = () => {
     return (
         <>
-            <Title title="React" />
+            <Title title="React" year={2020} />
 
-            <Title title="Vitaliy" />
+            <Title title="Vitaliy" year={2023} />
 
             <Content />
         </>
